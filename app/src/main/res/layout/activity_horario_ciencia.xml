@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HorarioMobile">
+
+    <TextView
+        android:id="@+id/CursoCiência"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade Horária do Curso de Ciência da Computação"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:gravity="center"
+        />
+
+    <!-- Grade Horária do Curso -->
+
+    <!-- Monday -->
+    <ImageView
+        android:id="@+id/GraduationCiência1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/graduation"
+        android:layout_below="@+id/CursoCiência"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/MondayCiência"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:layout_below="@+id/CursoCiência"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/HorárioCiência1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8:00-9:00 AM"
+        android:layout_below="@+id/CursoCiência"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <!-- Tuesday -->
+    <ImageView
+        android:id="@+id/GraduationCiência2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/graduation"
+        android:layout_below="@+id/GraduationCiência1"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/TuesdayCiência"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        android:layout_below="@+id/GraduationCiência1"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/HorárioCiência2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:00-11:00 AM"
+        android:layout_below="@+id/GraduationCiência1"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+
+    <!-- Wednesday -->
+    <ImageView
+        android:id="@+id/GraduationCiência3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/graduation"
+        android:layout_below="@+id/GraduationCiência2"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/WednesdayMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        android:layout_below="@+id/GraduationCiência2"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/HorárioCiência3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11:00-12:00 PM"
+            android:layout_below="@+id/GraduationCiência2"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <!-- Thurday -->
+
+    <ImageView
+        android:id="@+id/GraduationCiência4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/graduation"
+        android:layout_below="@+id/GraduationCiência3"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/ThursdayCiência"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thurday"
+        android:layout_below="@+id/GraduationCiência3"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/HorárioCiência4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11:00-12:00 PM"
+        android:layout_below="@+id/GraduationCiência3"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <!-- Friday -->
+
+    <ImageView
+        android:id="@+id/GraduationCiência5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/graduation"
+        android:layout_below="@+id/GraduationCiência4"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/FridayCiência"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thurday"
+        android:layout_below="@+id/GraduationCiência4"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/HorárioCiência5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11:00-12:00 PM"
+        android:layout_below="@+id/GraduationCiência4"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/VoltarCiência"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Voltar aos Cursos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        tools:ignore="HardcodedText"
+        />
+
+
+</RelativeLayout>

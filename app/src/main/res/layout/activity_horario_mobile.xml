@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HorarioMobile">
+
+    <TextView
+        android:id="@+id/CursoMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade Horária do Curso de        Desenvolvimento Mobile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:gravity="center"
+        tools:ignore="HardcodedText"
+        />
+
+    <!-- Grade Horária do Curso -->
+
+    <!-- Monday -->
+    <ImageView
+        android:id="@+id/GraduationMobile1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/graduation"
+        android:layout_below="@+id/CursoMobile"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/MondayMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:layout_below="@+id/CursoMobile"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/HorárioMobile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8:00-9:00 AM"
+        android:layout_below="@+id/CursoMobile"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <!-- Tuesday -->
+    <ImageView
+        android:id="@+id/GraduationMobile2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/graduation"
+        android:layout_below="@+id/GraduationMobile1"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/TuesdayMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        android:layout_below="@+id/GraduationMobile1"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/HorárioMobile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:00-11:00 AM"
+        android:layout_below="@+id/GraduationMobile1"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+
+    <!-- Wednesday -->
+    <ImageView
+        android:id="@+id/GraduationMobile3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/graduation"
+        android:layout_below="@+id/GraduationMobile2"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/WednesdayMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        android:layout_below="@+id/GraduationMobile2"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/HorárioMobile3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11:00-12:00 PM"
+        android:layout_below="@+id/GraduationMobile2"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <!-- Thurday -->
+
+    <ImageView
+        android:id="@+id/GraduationMobile4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/graduation"
+        android:layout_below="@+id/GraduationMobile3"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/ThursdayMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thurday"
+        android:layout_below="@+id/GraduationMobile3"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/HorárioMobile4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11:00-12:00 PM"
+        android:layout_below="@+id/GraduationMobile3"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <!-- Friday -->
+
+    <ImageView
+        android:id="@+id/GraduationMobile5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/graduation"
+        android:layout_below="@+id/GraduationMobile4"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/FridayMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thurday"
+        android:layout_below="@+id/GraduationMobile4"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/HorárioMobile5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11:00-12:00 PM"
+        android:layout_below="@+id/GraduationMobile4"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/VoltarMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Voltar aos Cursos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        tools:ignore="HardcodedText"
+        />
+
+</RelativeLayout>
