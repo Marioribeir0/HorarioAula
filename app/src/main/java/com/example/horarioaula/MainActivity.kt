@@ -10,6 +10,7 @@
     import androidx.appcompat.app.AppCompatActivity
     import androidx.core.view.ViewCompat
     import androidx.core.view.WindowInsetsCompat
+    import androidx.core.content.edit
 
     class MainActivity : AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,9 +35,9 @@
 
 
                     getSharedPreferences("dados", MODE_PRIVATE)
-                        .edit()
-                        .putString("nome", nome)
-                        .apply()
+                        .edit {
+                            putString("nome", nome)
+                        }
 
 
                     val intent = Intent(this, Cursos::class.java)
