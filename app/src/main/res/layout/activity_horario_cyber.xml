@@ -40,7 +40,7 @@
         android:text="Monday"
         android:layout_below="@+id/CursoCyber"
         android:layout_marginTop="65dp"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="80dp"
         android:textStyle="bold"
         android:textSize="20sp"
         />
@@ -76,7 +76,7 @@
         android:text="Tuesday"
         android:layout_below="@+id/GraduationCyber1"
         android:layout_marginTop="65dp"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="80dp"
         android:textStyle="bold"
         android:textSize="20sp"
         />
@@ -113,7 +113,7 @@
         android:text="Wednesday"
         android:layout_below="@+id/GraduationCyber2"
         android:layout_marginTop="65dp"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="80dp"
         android:textStyle="bold"
         android:textSize="20sp"
         />
@@ -150,7 +150,7 @@
         android:text="Thursday"
         android:layout_below="@+id/GraduationCyber3"
         android:layout_marginTop="65dp"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="80dp"
         android:textStyle="bold"
         android:textSize="20sp"
         />
@@ -187,7 +187,7 @@
         android:text="Friday"
         android:layout_below="@+id/GraduationCyber4"
         android:layout_marginTop="65dp"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="80dp"
         android:textStyle="bold"
         android:textSize="20sp"
         />
