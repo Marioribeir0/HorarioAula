@@ -21,6 +21,9 @@ class HorarioMobile : AppCompatActivity() {
 
         val voltarButton = findViewById<Button>(R.id.VoltarMobile)
         voltarButton.setOnClickListener {
+
+
+
             val intent = Intent(this, Cursos::class.java)
             startActivity(intent)
         }

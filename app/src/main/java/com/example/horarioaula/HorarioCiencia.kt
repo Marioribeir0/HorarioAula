@@ -23,6 +23,8 @@ class HorarioCiencia : AppCompatActivity() {
 
         val voltarButton = findViewById<Button>(R.id.VoltarCiência)
         voltarButton.setOnClickListener {
+
+
             val intent = Intent(this, Cursos::class.java)
             startActivity(intent)
         }

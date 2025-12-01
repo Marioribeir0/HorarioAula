@@ -44,7 +44,6 @@
                     finish()
 
                 } else {
-
                     Toast.makeText(this, "Digite seu nome!", Toast.LENGTH_SHORT).show()
                 }
             }
