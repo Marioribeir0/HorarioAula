@@ -4,6 +4,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F7F3FF"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,33 +13,60 @@
         android:layout_height="wrap_content"
         android:text="Descubra o horário do seu curso!"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:textStyle="bold"
-        android:textSize="24sp"
-        tools:ignore="HardcodedText" />
+        android:textColor="#333333"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText"
+        />
+
+
+    <TextView
+        android:id="@+id/SubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite seu nome para continuar"
+        android:textSize="15sp"
+        android:textColor="#555555"
+        android:layout_below="@id/Tittle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText"
+        android:textStyle="bold"
+
+        />
+
 
     <EditText
         android:id="@+id/NomeAluno"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Digite seu nome!"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        tools:ignore="HardcodedText"
-        android:background="@null"
-        android:textColorHint="@color/black"
-        android:gravity="center"
-        android:textSize="25sp"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/SubTitle"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Seu nome aqui..."
+        android:background="@drawable/input_bg"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText" />
+
 
     <Button
         android:id="@+id/Button_Aluno"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/NomeAluno"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="160dp"
-        android:text="Acesar a página de cursos"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/NomeAluno"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Acessar a página de cursos"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/btn_bg" />
 
 </RelativeLayout>
