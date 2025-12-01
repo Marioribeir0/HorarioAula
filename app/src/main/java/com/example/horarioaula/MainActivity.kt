@@ -26,8 +26,6 @@
             val nomeUser = findViewById<EditText>(R.id.NomeAluno)
             val btnAluno = findViewById<Button>(R.id.Button_Aluno)
 
-            val sharedPref = getSharedPreferences("UserPrefs", Context.MODE_PRIVATE)
-
             btnAluno.setOnClickListener {
                 val nome = nomeUser.text.toString().trim()
 
