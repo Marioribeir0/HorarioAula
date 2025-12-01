@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
         android:textSize="30sp"
+        tools:ignore="HardcodedText"
         />
 
     <TextView
@@ -37,18 +38,21 @@
         android:gravity="center"
         android:layout_below="@+id/Curso"
         android:layout_marginTop="45dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:textStyle="bold"
+        tools:ignore="HardcodedText"
         />
 
     <ImageView
         android:id="@+id/Mobile"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:focusable="true"
         android:src="@drawable/desenvolvimentomobile_logo"
         android:layout_below="@id/Curso"
         android:layout_marginTop="36dp"
         android:clickable="true"
+        android:contentDescription="@string/todo"
         />
 
     <TextView
@@ -60,19 +64,22 @@
         android:layout_below="@+id/Curso"
         android:layout_marginTop="45dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
         android:textStyle="bold"
+        tools:ignore="HardcodedText"
         />
 
     <ImageView
         android:id="@+id/EngenhariaSoftware"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:focusable="true"
         android:src="@drawable/engenhariadesoftware_logo"
         android:layout_below="@id/Curso"
         android:layout_marginTop="24dp"
         android:layout_alignParentEnd="true"
         android:clickable="true"
+        android:contentDescription="@string/todo"
         />
 
     <TextView
@@ -83,8 +90,9 @@
         android:gravity="center"
         android:layout_below="@+id/Mobile"
         android:layout_marginTop="32dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
         android:textStyle="bold"
+        tools:ignore="HardcodedText"
         />
 
     <ImageView
@@ -94,7 +102,10 @@
         android:layout_below="@id/Mobile"
         android:layout_marginTop="23dp"
         android:clickable="true"
-        android:src="@drawable/cyber_logo" />
+        android:focusable="true"
+        android:src="@drawable/cyber_logo"
+        android:contentDescription="@string/todo"
+        />
 
     <TextView
         android:id="@+id/Ciencia_Da_Computação"
@@ -105,25 +116,22 @@
         android:layout_below="@+id/EngenhariaSoftware"
         android:layout_marginTop="45dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
         android:textStyle="bold"
+        tools:ignore="HardcodedText"
         />
 
     <ImageView
         android:id="@+id/CienciaComputação"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:contentDescription="@string/todo"
+        android:focusable="true"
         android:src="@drawable/cienciacomputacao_logo"
         android:layout_below="@id/EngenhariaSoftware"
         android:layout_marginTop="24dp"
         android:layout_alignParentEnd="true"
         android:clickable="true"
         />
-
-
-
-
-
-
 
 </RelativeLayout>
