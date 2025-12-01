@@ -11,12 +11,13 @@
         android:id="@+id/CursoEngenharia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Grade Horária do Curso de Engenharia de Software"
+        android:text="Grade Horária - Engenharia de Software"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
         android:textStyle="bold"
         android:textSize="32sp"
         android:gravity="center"
+        android:layout_marginHorizontal="16dp"
         />
 
     <!-- Grade Horária do Curso -->
@@ -146,7 +147,7 @@
         android:id="@+id/ThursdayEngenharia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thurday"
+        android:text="Thursday"
         android:layout_below="@+id/GraduationEngenharia3"
         android:layout_marginTop="65dp"
         android:layout_marginStart="100dp"
@@ -183,7 +184,7 @@
         android:id="@+id/FridayEngenharia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thurday"
+        android:text="Friday"
         android:layout_below="@+id/GraduationEngenharia4"
         android:layout_marginTop="65dp"
         android:layout_marginStart="100dp"
@@ -211,7 +212,7 @@
         android:layout_alignParentBottom="true"
         android:text="Voltar aos Cursos"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="20dp"
         tools:ignore="HardcodedText"
         />
 
