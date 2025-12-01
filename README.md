@@ -9,6 +9,12 @@ Um aplicativo simples e intuitivo desenvolvido para que os alunos possam visuali
 - 🕐 **Visualização de Horários**: Grade horária organizada por dias da semana.
 - 🔄 **Navegação Simples**: Botão "Voltar aos Cursos" em todas as telas de horário.
 
+## 🛠️ Tecnologias
+
+- Interface desenvolvida com **XML Files e Relative Layout**
+- Estrutura de navegação simples
+- Design intuitivo
+
 ## 📱 Telas do Aplicativo
 
 ### 1. **Tela Inicial** 
@@ -64,12 +70,11 @@ Grade Horária - Engenharia de Software
 
 <img src="Software.jpg" alt="Software" width="200"/>
 
-## 🛠️ Tecnologias
+## Resultado:
 
-- Interface desenvolvida com **XML Files e Relative Layout**
-- Estrutura de navegação simples
-- Design intuitivo
 
+
+https://github.com/user-attachments/assets/7fe8cab1-100e-43b9-b90c-b30138b26106
 
 
 
