@@ -80,6 +80,6 @@ https://github.com/user-attachments/assets/7fe8cab1-100e-43b9-b90c-b30138b26106
 
 ## Autores 🙋
 
-**Desenvolvido por:** Mário Ribeiro, James Ventura, Ana Clara Cavalcante, Matheus Sabino e Julia Ribeiro
+**Desenvolvido por:** **Mário Ribeiro**, James Ventura, Ana Clara Cavalcante, Matheus Sabino e Julia Ribeiro
 
 **Repositório:** [github.com/Marioribeir0/HorarioAula](https://github.com/Marioribeir0/HorarioAula.git)
