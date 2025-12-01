@@ -21,7 +21,7 @@ class HorarioCiencia : AppCompatActivity() {
             insets
         }
 
-        val voltarButton = findViewById<Button>(R.id.VoltarCiência)
+        val voltarButton = findViewById<Button>(R.id.VoltarCiencia)
         voltarButton.setOnClickListener {
 
 
